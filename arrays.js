@@ -8,13 +8,11 @@ function addElementToBeginningOfArray(array, element){
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element){
-<<<<<<< HEAD
-  var a =[1];
-  a.unshift( 'foo');
-=======
+
+
   var a=[1];
   a= ("foo", ... a );
->>>>>>> ffec2c2d1f855ccb9ebf39e01844c69471beedfa
+
   return (a);
 }
 
